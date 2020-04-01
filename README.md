@@ -1,5 +1,5 @@
 
-
+```
 GCP
 
 
@@ -8,10 +8,11 @@ powershell -noprofile -nologo -command Write-Output "source.developers.google.co
 
 
 git clone https://source.developers.google.com/p/fiery-bit-272905/r/imagebuilder
-
+```
 
 
 ## Test "data"
+```
 {"objects":
 [
 {"type":"polygon","left":0,"top":0,"width":155,"height":256,"fill":"purple", "points":[{"x":0,"y":42},{"x":155,"y":0},{"x":155,"y":243},{"x":0,"y":256}]},
@@ -22,12 +23,13 @@ git clone https://source.developers.google.com/p/fiery-bit-272905/r/imagebuilder
 {"type":"rect","left":10.85, "top":98.85,"width":50,"height":50,"fill":"white"}
 ]
 }
-
+```
 
 ## sample email
 https://putsmail.com/
 
-
+## Paste it in Browser to view image or Use Postman
+```
 http://localhost:8124/?horizontal=true&data=
 {"objects":
 [
@@ -57,3 +59,4 @@ http://localhost:8124/?horizontal=true&data=
 {"type":"text","left":142,  "top":307, "text":"4","fontSize": 20, "fontFamily": "Arial", "fill":"black"}
 ]
 }
+```
