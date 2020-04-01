@@ -1,14 +1,5 @@
-
-```
-GCP
-
-
-git config --global http.cookiefile "%USERPROFILE%\.gitcookies"
-powershell -noprofile -nologo -command Write-Output "source.developers.google.com`tFALSE`t/`tTRUE`t2147483647`to`tgit-subha.utest1.gmail.com=1//0fl6ksg8uB7NECgYIARAAGA8SNwF-L9IrgwQnlBc51TaZH-T9tmzzSKhaK8l5AK0UNfF1cy9uvALhvsDVILtE8iYQpcFjGAVsi_s" >>"%USERPROFILE%\.gitcookies"
-
-
-git clone https://source.developers.google.com/p/fiery-bit-272905/r/imagebuilder
-```
+## how to run
+npm start
 
 
 ## Test "data"
